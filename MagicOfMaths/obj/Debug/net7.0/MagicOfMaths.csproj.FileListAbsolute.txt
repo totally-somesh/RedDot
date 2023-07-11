@@ -1,0 +1,15 @@
+D:\CDAC\DotNet\MagicOfMaths\obj\Debug\net7.0\MagicOfMaths.csproj.AssemblyReference.cache
+D:\CDAC\DotNet\MagicOfMaths\obj\Debug\net7.0\MagicOfMaths.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\DotNet\MagicOfMaths\obj\Debug\net7.0\MagicOfMaths.AssemblyInfoInputs.cache
+D:\CDAC\DotNet\MagicOfMaths\obj\Debug\net7.0\MagicOfMaths.AssemblyInfo.cs
+D:\CDAC\DotNet\MagicOfMaths\obj\Debug\net7.0\MagicOfMaths.csproj.CoreCompileInputs.cache
+D:\CDAC\DotNet\MagicOfMaths\bin\Debug\net7.0\MagicOfMaths.exe
+D:\CDAC\DotNet\MagicOfMaths\bin\Debug\net7.0\MagicOfMaths.deps.json
+D:\CDAC\DotNet\MagicOfMaths\bin\Debug\net7.0\MagicOfMaths.runtimeconfig.json
+D:\CDAC\DotNet\MagicOfMaths\bin\Debug\net7.0\MagicOfMaths.dll
+D:\CDAC\DotNet\MagicOfMaths\bin\Debug\net7.0\MagicOfMaths.pdb
+D:\CDAC\DotNet\MagicOfMaths\obj\Debug\net7.0\MagicOfMaths.dll
+D:\CDAC\DotNet\MagicOfMaths\obj\Debug\net7.0\refint\MagicOfMaths.dll
+D:\CDAC\DotNet\MagicOfMaths\obj\Debug\net7.0\MagicOfMaths.pdb
+D:\CDAC\DotNet\MagicOfMaths\obj\Debug\net7.0\MagicOfMaths.genruntimeconfig.cache
+D:\CDAC\DotNet\MagicOfMaths\obj\Debug\net7.0\ref\MagicOfMaths.dll
