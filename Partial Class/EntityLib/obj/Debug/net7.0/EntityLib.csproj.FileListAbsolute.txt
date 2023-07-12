@@ -1,0 +1,12 @@
+G:\Mohan Somesh\DotNet\EntityLib\obj\Debug\net7.0\EntityLib.csproj.AssemblyReference.cache
+G:\Mohan Somesh\DotNet\EntityLib\obj\Debug\net7.0\EntityLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mohan Somesh\DotNet\EntityLib\obj\Debug\net7.0\EntityLib.AssemblyInfoInputs.cache
+G:\Mohan Somesh\DotNet\EntityLib\obj\Debug\net7.0\EntityLib.AssemblyInfo.cs
+G:\Mohan Somesh\DotNet\EntityLib\obj\Debug\net7.0\EntityLib.csproj.CoreCompileInputs.cache
+G:\Mohan Somesh\DotNet\EntityLib\bin\Debug\net7.0\EntityLib.deps.json
+G:\Mohan Somesh\DotNet\EntityLib\bin\Debug\net7.0\EntityLib.dll
+G:\Mohan Somesh\DotNet\EntityLib\bin\Debug\net7.0\EntityLib.pdb
+G:\Mohan Somesh\DotNet\EntityLib\obj\Debug\net7.0\EntityLib.dll
+G:\Mohan Somesh\DotNet\EntityLib\obj\Debug\net7.0\refint\EntityLib.dll
+G:\Mohan Somesh\DotNet\EntityLib\obj\Debug\net7.0\EntityLib.pdb
+G:\Mohan Somesh\DotNet\EntityLib\obj\Debug\net7.0\ref\EntityLib.dll
