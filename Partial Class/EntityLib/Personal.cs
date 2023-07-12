@@ -2,16 +2,16 @@ namespace SMS;
 
 public partial class Student{
 
-    private string name;
+    public string name;
     public string address;
     public string email;
     public int age;
     public DateTime dob;
 
-    public string NAME{
-        get{return this.name;}
-        set{this.name = value;}
-    }
+    // public string NAME{
+    //     get{return this.name;}
+    //     set{this.name = value;}
+    // }
 
     // public string NAME{
     //     get{return this.name;}
