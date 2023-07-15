@@ -1,0 +1,15 @@
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\obj\Debug\net7.0\EntityLib.csproj.AssemblyReference.cache
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\obj\Debug\net7.0\EntityLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\obj\Debug\net7.0\EntityLib.AssemblyInfoInputs.cache
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\obj\Debug\net7.0\EntityLib.AssemblyInfo.cs
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\obj\Debug\net7.0\EntityLib.csproj.CoreCompileInputs.cache
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\bin\Debug\net7.0\EntityLib.deps.json
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\bin\Debug\net7.0\EntityLib.dll
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\bin\Debug\net7.0\EntityLib.pdb
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\bin\Debug\net7.0\Accounts.dll
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\bin\Debug\net7.0\Accounts.pdb
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\obj\Debug\net7.0\EntityLib.csproj.CopyComplete
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\obj\Debug\net7.0\EntityLib.dll
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\obj\Debug\net7.0\refint\EntityLib.dll
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\obj\Debug\net7.0\EntityLib.pdb
+D:\CDAC\DotNet\CompanyConsoleApp\EntityLib\obj\Debug\net7.0\ref\EntityLib.dll

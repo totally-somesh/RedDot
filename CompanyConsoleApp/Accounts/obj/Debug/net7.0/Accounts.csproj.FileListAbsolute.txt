@@ -1,0 +1,12 @@
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\bin\Debug\net7.0\Accounts.deps.json
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\bin\Debug\net7.0\Accounts.dll
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\bin\Debug\net7.0\Accounts.pdb
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\obj\Debug\net7.0\Accounts.csproj.AssemblyReference.cache
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\obj\Debug\net7.0\Accounts.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\obj\Debug\net7.0\Accounts.AssemblyInfoInputs.cache
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\obj\Debug\net7.0\Accounts.AssemblyInfo.cs
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\obj\Debug\net7.0\Accounts.csproj.CoreCompileInputs.cache
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\obj\Debug\net7.0\Accounts.dll
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\obj\Debug\net7.0\refint\Accounts.dll
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\obj\Debug\net7.0\Accounts.pdb
+D:\CDAC\DotNet\CompanyConsoleApp\Accounts\obj\Debug\net7.0\ref\Accounts.dll
