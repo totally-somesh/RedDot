@@ -40,8 +40,15 @@ namespace DAL
                     Department department = Enum.Parse<Department>(reader["department"].ToString());
                     string city = reader["city"].ToString();
                     double salary = double.Parse(reader["salary"].ToString());
+                    //DateOnly joiningdate = DateOnly.Parse(reader["joiningdate"].ToString().Substring(0,10));
+                    //DateOnly joiningdate = DateOnly.Parse(reader["joiningdate"].ToString());
 
-                    Employee newEmp = new Employee(id, empname, designation, department, city, salary);
+                    //DateTime joiningdate = DateTime.ParseExact(reader["joiningdate"].ToString(),
+                    //"yyyy-MM-dd", CultureInfo.InvariantCulture);
+
+                    DateOnly joiningdate = DateOnly.FromDateTime(DateTime.Parse(reader["joiningdate"].ToString()));
+
+                    Employee newEmp = new Employee(id, empname, designation, department, city, salary, joiningdate);
 
                     empList.Add(newEmp);
                 }
@@ -71,7 +78,7 @@ namespace DAL
                 cmd.Connection= conn;
 
                 string query = "insert into employees values('"+newEmp.ID+"', '"+newEmp.EMPNAME+"', '" +
-                    newEmp.DESIGNATION+"', '"+newEmp.DEPARTMENT+"', '"+newEmp.CITY+"', '"+newEmp.SALARY+"')";
+                    newEmp.DESIGNATION+"', '"+newEmp.DEPARTMENT+"', '"+newEmp.CITY+"', '"+newEmp.SALARY+"','"+newEmp.JOININGDATE.ToString("yyyy-MM-dd")+"')";
 
                 cmd.CommandText = query;
 
@@ -143,8 +150,10 @@ namespace DAL
                     Department department = Enum.Parse<Department>(reader["department"].ToString());
                     string city = reader["city"].ToString();
                     double salary = double.Parse(reader["salary"].ToString());
-
-                    foundEmp = new Employee(empid, empname, designation, department, city, salary);
+                    //DateOnly joiningdate = DateOnly.Parse(reader["joiningdate"].ToString().Substring(0, 10));
+                    DateOnly joiningdate = DateOnly.FromDateTime(DateTime.Parse(reader["joiningdate"].ToString()));
+                    
+                    foundEmp = new Employee(empid, empname, designation, department, city, salary, joiningdate);
                 }
 
             }
@@ -178,7 +187,7 @@ namespace DAL
 
                 string query = "UPDATE employees SET empname = '" + emp.EMPNAME + "', designation = '" + emp.DESIGNATION
                     + "', department = '" + emp.DEPARTMENT + "', city = '" + emp.CITY + "', salary = '" + emp.SALARY +
-                    "' WHERE id = " + emp.ID;
+                    "', joiningdate = '"+emp.JOININGDATE+" WHERE id = " + emp.ID;
 
                 cmd.CommandText = query;
 

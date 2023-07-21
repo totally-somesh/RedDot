@@ -41,17 +41,16 @@ namespace HRWebApp.Controllers
 
         [HttpPost]
         public IActionResult Register(string id, string empname, string designation,
-            string department, string city, string salary) {
+            string department, string city, string salary, string joiningdate) {
 
             Employee newEmp = new Employee(int.Parse(id), empname, designation,
                 Enum.Parse<Department>(department),
-                city, double.Parse(salary));
+                city, double.Parse(salary), DateOnly.Parse(joiningdate));
 
              DBManager.insertEmployee(newEmp);
 
             return RedirectToAction("Employees");
         }
-
 
 
         public IActionResult Register() {
@@ -87,10 +86,10 @@ namespace HRWebApp.Controllers
         }
 
         public IActionResult Update(string id, string empname, string designation,
-            string department, string city, string salary) {
+            string department, string city, string salary, string joiningdate) {
 
             Employee updatedEmp = new Employee(int.Parse(id), empname, designation, Enum.Parse<Department>(department), 
-                city,double.Parse(salary));
+                city,double.Parse(salary), DateOnly.Parse(joiningdate));
 
             Console.WriteLine(updatedEmp);
             DBManager.updateEmployee(updatedEmp);

@@ -13,16 +13,18 @@
         private Department department;
         private string city;
         private double salary;
+        private DateOnly joiningdate;
 
         public Employee(int id, string empname, string designation,
-            Department department, string city, double salary) { 
+            Department department, string city, double salary, DateOnly joiningdate) { 
 
             this.id = id;
             this.empname = empname;
             this.designation = designation;
             this.department = department;
             this.city = city;
-            this.salary = salary;                  
+            this.salary = salary;   
+            this.joiningdate = joiningdate;
         }
 
         public Employee() { 
@@ -65,10 +67,16 @@
             set { this.salary = value; }
         }
 
+        public DateOnly JOININGDATE {
+
+            get { return this.joiningdate; }
+            set { this.joiningdate = value; }        
+        }
+
         public override string ToString()
         {
             return " | " + this.id + " | " + this.empname + " | " + this.designation + " | " 
-                 + this.department + " | " + this.city + " | " + this.salary + " | ";
+                 + this.department + " | " + this.city + " | " + this.salary + " | " + this.joiningdate + " | ";
         }
     }
 }
